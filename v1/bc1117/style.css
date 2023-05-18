@@ -1,0 +1,11 @@
+/* *{
+    border: 1px dotted red;
+    margin: 5px;
+} */
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
