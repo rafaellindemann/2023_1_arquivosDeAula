@@ -25,6 +25,7 @@ public TelaGaragem() {
             Main.garagem.add(c);
 
             System.out.println(Main.garagem.get(0).mostrarEstado());
+            txtRelatorios.setText(Main.garagem.get(0).mostrarEstado());
         }
     });
 }
