@@ -1,0 +1,48 @@
+*{
+    /* border: 1px dotted red; */
+    /* margin: 5px; */
+}
+
+#inpNumero{
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+body{
+    /* background-color: yellowgreen; */
+    background-color: white;
+}
+
+button{
+    border: 2px solid darkgreen;
+    border-radius: 4px;
+    background-color: aquamarine;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+    background-color: yellow;
+    height: 350px;
+    width: 300px;
+    gap: 10px;
+    /* border-radius: 40px; */
+    border-radius: 50%;
+}
+#painel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    /* border-radius: 20px;
+    border: 1px dotted red; */
+}
+
+#divResultado{
+    /* border: 1px solid darkgreen; */
+}
