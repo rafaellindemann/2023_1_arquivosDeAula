@@ -1,0 +1,17 @@
+
+
+
+
+/* *{
+    border: 1px dotted red;
+} */
+
+.linha{
+    display: flex;
+}
+
+.quadrante{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
