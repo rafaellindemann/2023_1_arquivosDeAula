@@ -5,6 +5,16 @@ public class Carro {
     private String cor;
     private int km;
 
+    public Carro(String modelo, int capTanque, int qtdTanque, String cor, int km) {
+        this.modelo = modelo;
+        this.capTanque = capTanque;
+        this.qtdTanque = qtdTanque;
+        this.cor = cor;
+        this.km = km;
+    }
+
+    public Carro() { }
+
     public String mostrarEstado(){
         return "Modelo: " + this.modelo + "\nCapTanque: " + this.capTanque +
                 "\nqtdTanque: " + this.qtdTanque + "\nCor: " + this.cor +

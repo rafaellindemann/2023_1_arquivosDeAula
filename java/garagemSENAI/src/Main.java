@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class Main {
-    static ArrayList<Carro> garagem = new ArrayList<Carro>();
+
     public static void main(String[] args) {
 
         TelaGaragem tg = new TelaGaragem();
