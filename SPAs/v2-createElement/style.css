@@ -40,6 +40,12 @@ body{
     max-width: 20%;
 }
 
+.card:hover{
+    scale: 1.03;
+    border: 2px solid aqua;
+    box-shadow: 0 0 10px aqua;
+}
+
 
 nav{
     /* height: 50px; */
@@ -72,6 +78,8 @@ button{
 button:hover{
     border: 1px solid aqua;
     box-shadow: 0 0 10px aqua;
+    /* background-color: black;
+    color: aquamarine; */
 }
 
 p{
